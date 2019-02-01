@@ -1,0 +1,15 @@
+/**
+ * 定义了所有module共同的依赖
+ */
+
+ext {
+    kotlin_version = "1.3.20"
+    android = [
+            compileSdkVersion: 28,
+            minSdkVersion   : 23,
+            targetSdkVersion: 28,
+            versionCode     : 1,
+            versionName     : "1.0",
+            applicationId : "com.fm.lingrui"
+    ]
+}

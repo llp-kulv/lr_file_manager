@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':plugin_file_operation', ':plugin_junk_files', ':plugin_document_safe', ':plugin_me', ':plugin_basic'

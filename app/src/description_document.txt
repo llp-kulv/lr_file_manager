@@ -1,0 +1,15 @@
+主要分如下几块：
+1.文件的管理操作：plugin_file_operation : operation
+    文件重命名操作及其归类
+    图片和视频展示
+
+2.垃圾文件删除：plugin_junk_files : jfiles
+    扫描小文件
+    删除垃圾文件
+
+3.保险箱：plugin_document_safe : safe
+
+
+4.个人账户：plugin_me : me
+
+

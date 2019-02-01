@@ -2,7 +2,7 @@ package com.fm.lingrui.base
 
 import android.app.Application
 
-class LRApplication : Application() {
+open class BaseApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
@@ -10,9 +10,9 @@ class LRApplication : Application() {
     }
 
     companion object {
-        lateinit var lrApplication: LRApplication;
+        lateinit var lrApplication: BaseApplication;
 
-        fun getLRApplication(): LRApplication {
+        fun getApplication(): BaseApplication {
             return lrApplication;
         }
     }
